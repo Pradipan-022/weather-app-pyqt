@@ -26,3 +26,33 @@ TECHNOLODIES USED
   -Requests
 
   -OpenWeather API
+
+INSTALLATION
+
+1. Clone the repository
+  git clone https://github.com/your-username/weather-app-pyqt.git
+  cd weather-app-pyqt
+
+2. Install dependencies
+  -pip install PyQt5 requests
+
+3. Add your OpenWeather API key
+
+  -Replace the api_key variable inside the script:
+    api_key = "YOUR_API_KEY_HERE"
+
+  -You can obtain a free API key from:
+    https://openweathermap.org/api
+
+USAGE
+
+  -Run the application using:
+    python weather_app.py
+
+Steps:
+
+  -Enter the name of a city
+
+  -Click "Get Weather"
+
+  -View the current temperature and weather description
